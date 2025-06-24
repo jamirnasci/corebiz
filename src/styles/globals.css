@@ -14,4 +14,9 @@ body{
 
 #__next{
   height: 100vh;
+  padding-left: 250px;
+}
+
+.bg-darkblue{
+  background-color: rgb(32, 45, 165);
 }
