@@ -1,4 +1,4 @@
-import FuncionarioForm from "../../../components/FuncionarioForm"
+import FuncionarioForm from "../../../components/forms/FuncionarioForm"
 import SideBar from "../../../components/SideBar"
 
 const CadastroPage = ()=>{

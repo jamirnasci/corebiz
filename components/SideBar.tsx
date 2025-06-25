@@ -15,7 +15,7 @@ const SideBar = () => {
                             </h2>
                             <div id="funcionariosAccordionBody" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div className="accordion-body bg-darkblue">
-                                    <a className={style.sideBarLink}>Cadastro</a>
+                                    <a href='/funcionarios/cadastro' className={style.sideBarLink}>Cadastro</a>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ const SideBar = () => {
                             </h2>
                             <div id="accordionClientesBody" className="accordion-collapse collapse" data-bs-parent="#accordionClientes">
                                 <div className="accordion-body bg-darkblue">
-                                    <a className={style.sideBarLink}>Cadastro</a>
+                                    <a href='/clientes/cadastro' className={style.sideBarLink}>Cadastro</a>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const SideBar = () => {
                             </h2>
                             <div id="accordionVendasBody" className="accordion-collapse collapse" data-bs-parent="#accordionVendas">
                                 <div className="accordion-body bg-darkblue">
-                                    <a className={style.sideBarLink}>Cadastro</a>
+                                    <a href='/vendas/cadastro' className={style.sideBarLink}>Cadastro</a>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const SideBar = () => {
                             </h2>
                             <div id="accordionProdutosBody" className="accordion-collapse collapse" data-bs-parent="#accordionProdutos">
                                 <div className="accordion-body bg-darkblue">
-                                    <a className={style.sideBarLink}>Cadastro</a>
+                                    <a href='/produtos/cadastro' className={style.sideBarLink}>Cadastro</a>
                                 </div>
                             </div>
                         </div>
