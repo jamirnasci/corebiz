@@ -1,6 +1,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root {
@@ -14,9 +15,23 @@ body{
 
 #__next{
   height: 100vh;
-  padding-left: 250px;
 }
 
 .bg-darkblue{
-  background-color: rgb(32, 45, 165);
+  background-color: dodgerblue;
+}
+
+input, select, textarea{
+  box-shadow: none !important;
+}
+
+.content-container{
+  flex: 1;
+  display: flex;
+  text-align: left;
+}
+
+.form-box{
+  padding: 10px;
+  width: 75%;
 }

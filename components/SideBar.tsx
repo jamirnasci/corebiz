@@ -2,14 +2,14 @@ import style from '@/styles/components/sidebar.module.css'
 
 const SideBar = () => {
     return (
-        <div className="position-fixed start-0 bg-primary bg-gradient h-100" style={{ width: '250px' }}>
+        <div className={style.sideBar}>
             <div className="">
                 <h1 className="text-light p-2">App Title</h1>
                 <div className="d-flex flex-column">
                     <div className="accordion accordion-flush" id="accordionExample">
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                                <button className="accordion-button bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#funcionariosAccordionBody" aria-expanded="true" aria-controls="collapseOne">
+                                <button className="shadow-none accordion-button bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#funcionariosAccordionBody" aria-expanded="true" aria-controls="collapseOne">
                                     Funcionários
                                 </button>
                             </h2>
@@ -23,7 +23,7 @@ const SideBar = () => {
                     <div className="accordion accordion-flush" id="accordionClientes">
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                                <button className="accordion-button text-light bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#accordionClientesBody" aria-expanded="true" aria-controls="collapseOne">
+                                <button className="shadow-none accordion-button text-light bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#accordionClientesBody" aria-expanded="true" aria-controls="collapseOne">
                                     Clientes
                                 </button>
                             </h2>
@@ -37,7 +37,7 @@ const SideBar = () => {
                     <div className="accordion accordion-flush" id="accordionVendas">
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                                <button className="accordion-button bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#accordionVendasBody" aria-expanded="true" aria-controls="collapseOne">
+                                <button className="shadow-none accordion-button bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#accordionVendasBody" aria-expanded="true" aria-controls="collapseOne">
                                     Vendas
                                 </button>
                             </h2>
@@ -51,7 +51,7 @@ const SideBar = () => {
                     <div className="accordion accordion-flush" id="accordionProdutos">
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                                <button className="accordion-button bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProdutosBody" aria-expanded="true" aria-controls="collapseOne">
+                                <button className="shadow-none accordion-button bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProdutosBody" aria-expanded="true" aria-controls="collapseOne">
                                     Produtos
                                 </button>
                             </h2>

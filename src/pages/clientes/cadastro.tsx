@@ -3,10 +3,12 @@ import SideBar from "../../../components/SideBar"
 
 const ClienteCadastroPage = () => {
     return (
-        <div className="container w-75">
+        <div className="content-container">
             <SideBar />
-            <h3>Cadastrar Cliente</h3>
-            <ClienteForm />
+            <div className="form-box">
+                <h3>Cadastrar Cliente</h3>
+                <ClienteForm />
+            </div>
         </div>
     )
 }

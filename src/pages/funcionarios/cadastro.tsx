@@ -3,7 +3,7 @@ import SideBar from "../../../components/SideBar"
 
 const CadastroPage = ()=>{
     return (
-        <div className="container w-75">
+        <div className="content-container">
             <SideBar/>
             <h3>Cadastrar Funcionário</h3>
             <FuncionarioForm/>
