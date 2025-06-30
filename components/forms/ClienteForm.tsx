@@ -29,6 +29,28 @@ const ClienteForm = () => {
                 <label htmlFor="endereco">Endereço</label>
                 <input className="form-control" type="text" name="endereco" id="endereco" />
             </div>
+            <div className="row">
+                <div className="col">
+                    <label htmlFor="produto">Produto</label><br />
+                    <select className="form-select" name="produto" id="">
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div className="col">
+                    <label htmlFor="plano">Plano:</label><br />
+                    <select className="form-select" name="plano" id="plano">
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div className="col">
+                    <label htmlFor="metodo-pag">Método Pagamento</label><br />
+                    <select className="form-select" name="metodo-pag" id="metodo-pag">
+                        <option value="credito">Crédito</option>
+                        <option value="debito">Débito</option>
+                        <option value="avista">À vista</option>
+                    </select>
+                </div>
+            </div>
             <div>
                 <label htmlFor="descricao">Descrição</label>
                 <textarea className="form-control" name="descricao" id="descricao"></textarea>

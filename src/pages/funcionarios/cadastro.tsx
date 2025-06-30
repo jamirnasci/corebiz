@@ -5,8 +5,10 @@ const CadastroPage = ()=>{
     return (
         <div className="content-container">
             <SideBar/>
-            <h3>Cadastrar Funcionário</h3>
-            <FuncionarioForm/>
+            <div className="form-box">
+                <h3>Cadastrar Funcionário</h3>
+                <FuncionarioForm/>
+            </div>
         </div>
     )
 }

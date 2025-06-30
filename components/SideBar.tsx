@@ -43,7 +43,7 @@ const SideBar = () => {
                             </h2>
                             <div id="accordionVendasBody" className="accordion-collapse collapse" data-bs-parent="#accordionVendas">
                                 <div className="accordion-body bg-darkblue">
-                                    <a href='/vendas/cadastro' className={style.sideBarLink}>Cadastro</a>
+                                    <a href='/vendas/solicitacoes' className={style.sideBarLink}>Solicitações</a>
                                 </div>
                             </div>
                         </div>
